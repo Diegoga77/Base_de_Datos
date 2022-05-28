@@ -4,7 +4,8 @@ Objetivo: Demostrar la correcta identificación de los conceptos del lenguaje SQ
 Ejercicio:
 
 1. Menciona los comandos DMl: (valor .85)
-
+INSERT
+SELECT
 2. Menciona 3 tipos de datos que existen: (valor .85)
 
 
