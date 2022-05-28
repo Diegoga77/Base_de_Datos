@@ -33,6 +33,10 @@ Realiza el modelo entidad relación. (valor 6)
 
 Tenemos esta información sobre una cadena editorial:
 
+
+![image](https://user-images.githubusercontent.com/104279937/170845686-c31738a7-7ceb-475e-be0b-58f3ed4094b5.png)
+
+
 ● La editorial tiene varias sucursales, con su domicilio, teléfono y un código de
 sucursal.
 
