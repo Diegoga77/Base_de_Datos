@@ -23,7 +23,32 @@ operaciones sobre estos archivos, tales como: (valor 1.5)
 
 Objetivo: Representar desde un modelo entidad relación un problema
 
+CREATE DATABASE editorial;
+USE editorial;
 
+CREATE TABLE empleado(
+  tif_e VARCHAR (100) PRIMARY KEY,
+  telf_e VARCHAR (100) NOT NULL,
+  apell_e VARCHAR (100) NOT NULL,
+  nomb_e VARCHAR (100) NOT NULL
+  );
+
+CREATE TABLE secciones(
+ext_s INT UNSIGNED  PRIMARY KEY,
+ tit_s VARCHAR (100) NOT NULL 
+);
+
+CREATE TABLE ejemplar(
+numejem_vend VARCHAR (100) PRIMARY KEY,
+ numpag_e VARCHAR (100) NOT NULL,
+ fecha_e  VARCHAR (100) NOT NULL 
+);
+
+CREATE TABLE sucursal(
+cod_su VARCHAR (100) PRIMARY KEY,
+  telf_su INT UNSIGNED NOT NULL,
+  dom_su VARCHAR (100) NOT NULL
+  ); 
 Ejercicio:
 
 Tenemos que diseñar una base de datos sobre proveedores y disponemos de la siguiente
