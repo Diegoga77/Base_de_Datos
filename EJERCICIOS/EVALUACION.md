@@ -42,7 +42,6 @@ Conjunto de elementos orientados al tratamiento y administración de datos e inf
 2. Diseño de un modelo relacional
 
 Objetivo: Representar desde un modelo entidad relación un problema
-
 CREATE DATABASE editorial;
 USE editorial;
 
@@ -66,9 +65,34 @@ numejem_vend VARCHAR (100) PRIMARY KEY,
 
 CREATE TABLE sucursal(
 cod_su VARCHAR (100) PRIMARY KEY,
-  telf_su INT UNSIGNED NOT NULL,
+  telf_su BIGINT UNSIGNED UNIQUE,
   dom_su VARCHAR (100) NOT NULL
   ); 
+  
+-- INSERTAMOS LOS DATOS
+
+INSERT INTO sucursal VALUES ('suc01',5573485948,'Tenayuca 15, Colonia Porvenir');
+INSERT INTO sucursal VALUES ('suc02',3395847649,' Ahuehuetes 24, Colonia Reynosa');
+INSERT INTO sucursal VALUES ('suc03',7293840947,' San Juan 12, CAolonia Electricistas');
+
+  
+  CREATE TABLE revista (
+    num_r INT UNSIGNED PRIMARY KEY,
+    titu_r VARCHAR(100),
+    peri_r VARCHAR (50) NOT NULL,
+    tip_r VARCHAR (100) NOT NULL
+    );
+    
+ CREATE TABLE periodista (
+ espe_p VARCHAR (100) PRIMARY KEY,
+ nom_p VARCHAR (100) NOT NULL,
+ apell_p VARCHAR (100) NOT NULL,
+ telf_p BIGINT UNIQUE NOT NULL,
+ tif_p VARCHAR (100)
+ );
+   
+
+
 Ejercicio:
 
 Tenemos que diseñar una base de datos sobre proveedores y disponemos de la siguiente
