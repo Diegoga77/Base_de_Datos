@@ -42,6 +42,8 @@ Conjunto de elementos orientados al tratamiento y administración de datos e inf
 2. Diseño de un modelo relacional
 
 Objetivo: Representar desde un modelo entidad relación un problema
+
+
 CREATE DATABASE editorial;
 USE editorial;
 
@@ -52,16 +54,40 @@ CREATE TABLE empleado(
   nomb_e VARCHAR (100) NOT NULL
   );
 
+--INSERTAMOS DATOS
+
+
 CREATE TABLE secciones(
-ext_s INT UNSIGNED  PRIMARY KEY,
+ext_s VARCHAR (50)  PRIMARY KEY,
  tit_s VARCHAR (100) NOT NULL 
 );
+
+--INSERTAMOS DATOS 
+
+INSERT INTO secciones VALUES ('esp','Espectalucos');
+INSERT INTO secciones VALUES ('dep','Deportes');
+INSERT INTO secciones VALUES ('pol','Politica');
+INSERT INTO secciones VALUES ('cin','Cine');
+INSERT INTO secciones VALUES ('hog','Hogar');
+INSERT INTO secciones VALUES ('cul','Cultura');
+INSERT INTO secciones VALUES ('vid','Videojuegos');
+
 
 CREATE TABLE ejemplar(
 numejem_vend VARCHAR (100) PRIMARY KEY,
  numpag_e VARCHAR (100) NOT NULL,
  fecha_e  VARCHAR (100) NOT NULL 
 );
+
+--INSERTAMOS DATOS
+
+INSERT INTO ejemplar VALUES ('4855','56','23/09/2021');
+INSERT INTO ejemplar VALUES ('1234','89','30/09/2021');
+INSERT INTO ejemplar VALUES ('5343','78','09/10/2021');
+INSERT INTO ejemplar VALUES ('5654','90','06/04/2022');
+INSERT INTO ejemplar VALUES ('3434','100','15/03/2022');
+INSERT INTO ejemplar VALUES ('6546','100','01/06/2021');
+INSERT INTO ejemplar VALUES ('4534','56','15/05/2022');
 
 CREATE TABLE sucursal(
 cod_su VARCHAR (100) PRIMARY KEY,
@@ -72,9 +98,17 @@ cod_su VARCHAR (100) PRIMARY KEY,
 -- INSERTAMOS LOS DATOS
 
 INSERT INTO sucursal VALUES ('suc01',5573485948,'Tenayuca 15, Colonia Porvenir');
-INSERT INTO sucursal VALUES ('suc02',3395847649,' Ahuehuetes 24, Colonia Reynosa');
-INSERT INTO sucursal VALUES ('suc03',7293840947,' San Juan 12, CAolonia Electricistas');
+INSERT INTO sucursal VALUES ('suc 02',3395847649,'Ahuehuetes 24, Colonia Reynosa');
+INSERT INTO sucursal VALUES ('suc03',7293840947,'San Juan 12, Colonia Electricistas');
+INSERT INTO sucursal VALUES ('suc04',8293459375,'Manuel Buendia 948, Colonia Refineria');
+INSERT INTO sucursal VALUES ( 'suc05',7394850993,'Petroleos 12, Colonia Alabama');
+INSERT INTO sucursal VALUES ('suc06',5587394785,'Petén 1209, Colonia Roma Norte');
+INSERT INTO sucursal VALUES ('suc07',4593849058,'Tlahuac 10, Colonia Reyes');
+INSERT INTO sucursal VALUES ('suc08',3384909859,'Anaxagoras 15, Colonia Polanco');
+INSERT INTO sucursal VALUES ('suc09',3338930403,'Miguel Hidalgo 98,Colonia Angus');
+INSERT INTO sucursal VALUES ('suc10',2288473845,'Cervantes 56, Colonia Juarez');
 
+                             
   
   CREATE TABLE revista (
     num_r INT UNSIGNED PRIMARY KEY,
@@ -82,6 +116,16 @@ INSERT INTO sucursal VALUES ('suc03',7293840947,' San Juan 12, CAolonia Electric
     peri_r VARCHAR (50) NOT NULL,
     tip_r VARCHAR (100) NOT NULL
     );
+    
+-- INSERTAMOS DATOS 
+
+INSERT INTO revista VALUES (098,'Politica Hoy','Semanal','Politica');
+INSERT INTO revista VALUES (099,'Emoción Deportiva','Quincenal','Deportiva');
+INSERT INTO revista VALUES (100,'Mundo Rosa','Semanal','Espectaculos');
+INSERT INTO revista VALUES (1001,'Videogamer','Mensual','Videojuegos');
+INSERT INTO revista VALUES (102,'Cine hoy','Semanal','Cine');
+INSERT INTO revista VALUES (103,'Todo en Cultura','Mensual','Cultural');
+
     
  CREATE TABLE periodista (
  espe_p VARCHAR (100) PRIMARY KEY,
@@ -91,6 +135,20 @@ INSERT INTO sucursal VALUES ('suc03',7293840947,' San Juan 12, CAolonia Electric
  tif_p VARCHAR (100)
  );
    
+-- INSERTAMOS DATOS
+INSERT INTO periodista VALUES ('Deportes','Karla','Perez',5534563748,'per_01');
+INSERT INTO periodista VALUES ('Politica','Beatriz','Angeles',7289467349,'per_02');
+INSERT INTO periodista VALUES ('Espectaculos','Tito','Galindo',8203978465,'per_03');
+INSERT INTO periodista VALUES ('Videojuegos','Isabel','Jimenez',8263748987,'per_04');
+INSERT INTO periodista VALUES ('Cine','Pablo','Duarte',5523784938,'per_05');
+INSERT INTO periodista VALUES ('Cine1','Sergio','Morales',7238946574,'per_06');
+INSERT INTO periodista VALUES ('Cultura','Carlos','Cisneros',3398475840,'per_07');
+INSERT INTO periodista VALUES ('Deportes1','Juan','Macias',5682394848,'per_08');
+INSERT INTO periodista VALUES ('Politica1','Pedro','Garay',5548738495,'per_09');
+INSERT INTO periodista VALUES ('Videojuegos1','Angel','Fuentes',8236475894,'per_10');
+INSERT INTO periodista VALUES ('Cine2','Cesar','Rodriguez',4585968495,'per_11');
+INSERT INTO periodista VALUES ('Politica2','Magda','Sanchez',7683749594,'per_12');
+
 
 
 Ejercicio:
