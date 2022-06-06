@@ -5,10 +5,15 @@ Ejercicio:
 
 1. Menciona los comandos DMl: (valor .85)
 
-2. Menciona 3 tipos de datos que existen: (valor .85)
+INSERT SELECT UPDATE DELETE
 
+2. Menciona 3 tipos de datos que existen: (valor .85)
+DATOS (dominios)= VARCHAR-CHAR
+DATOS INT-SMALLINT-BIGINT-FLOAT
+DATOS ( fecha y hora) =datetime-smalldatetime
 
 3. ¿Qué diferencia existe entre TRUNCATE y DELETE?(valor .85)
+TRUNCATE:
 
 4. ¿Para qué se utiliza el atributo UNIQUE?(valor .85)
 
@@ -16,7 +21,7 @@ Ejercicio:
 
 
 6. Defina brevemente el significado de las siglas SQL(valor .85)
-
+SQL (Structured Query Language) es un lenguaje estándar e interactivo de acceso a bases de datos relacionales que permite especificar diversos tipos de operaciones en ellas, gracias a la utilización del álgebra y de cálculos relacionales.
 
 7. Defina brevemente qué es MySQL WorkBench (valor .85)
 
