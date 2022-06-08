@@ -11,6 +11,7 @@ En la BD utilizada en clase realiza las siguientes consultas:
 FROM empleados INNER JOIN sucursal ON empleados.codigo_de_sucursal1=sucursal.codigo_de_sucursal;
 * Muestra que periodistas colaboraron en x revista y en que sucursal se publico la revista
 * 
+* 
 * Mustra que seccion esta en x revista, en que sucursal se imprimio y que empleados estan en esa sucursal.
 * En la tabla peridistas muestra solo los que escriban sobre cine
 * De la tabla revistas muestra las que sean de publicacion quincenal
