@@ -13,17 +13,22 @@ DATOS INT-SMALLINT-BIGINT-FLOAT
 DATOS ( fecha y hora) =datetime-smalldatetime
 
 3. ¿Qué diferencia existe entre TRUNCATE y DELETE?(valor .85)
-TRUNCATE:
+TRUNCATE: elimina todas las filas de la tabla sin eliminar la tabla.
+DELETE: borra toda la tabla o una serie de filas de la tabla
 
 4. ¿Para qué se utiliza el atributo UNIQUE?(valor .85)
 
+UNIQUE: los datos que estan en nuestros campos no se repitan
+
 5. ¿Qué diferencia hay entre los tipos de datos VARCHAR y CHAR? (valor .85)
 
+CHAR define una cadena de longitud fija y VARCHAR una cadena de longitud variable; son especificadas por el usuario
 
 6. Defina brevemente el significado de las siglas SQL(valor .85)
 SQL (Structured Query Language) es un lenguaje estándar e interactivo de acceso a bases de datos relacionales que permite especificar diversos tipos de operaciones en ellas, gracias a la utilización del álgebra y de cálculos relacionales.
 
 7. Defina brevemente qué es MySQL WorkBench (valor .85)
+es un software libre disponible para Windows Mac OS X y Linux. La herramienta dispone de una versión comercial la cual dispone de una validación del modelado o la opción de ingeniaría inversa de base de datos.
 
 ## Práctica 5.
 ### Gestores de base de datos
