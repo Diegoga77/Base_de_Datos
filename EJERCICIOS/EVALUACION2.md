@@ -47,7 +47,7 @@ principales, las ventajas y desventajas. (valor 6)
 
 ![image](https://user-images.githubusercontent.com/91554777/170415427-e2b7321b-a97f-43b0-ac24-6e506c307e6b.png)
 
-![image](https://user-images.githubusercontent.com/104279937/173208134-600f0862-97d6-487d-84d4-b4b7ac80c2c9.png)
+![image](https://user-images.githubusercontent.com/91554777/170415427-e2b7321b-a97f-43b0-ac24-6e506c307e6b.png)
 
 
 ## Práctica 6.
