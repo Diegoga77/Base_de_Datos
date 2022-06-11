@@ -47,7 +47,7 @@ principales, las ventajas y desventajas. (valor 6)
 
 ![image](https://user-images.githubusercontent.com/91554777/170415427-e2b7321b-a97f-43b0-ac24-6e506c307e6b.png)
 
-https://user-images.githubusercontent.com/104279937/173206999-9b631c6f-c0f1-444d-8e7c-75711e3dc671.png
+![image](https://user-images.githubusercontent.com/104279937/173206999-9b631c6f-c0f1-444d-8e7c-75711e3dc671.png)
 
 
 ## Práctica 6.
@@ -69,8 +69,8 @@ Tienda de informática
 
 Modelo entidad/relación
 
-![image](https://user-images.githubusercontent.com/104279937/173207450-2fd6da84-7a40-433f-bc48-2abef08b31dc.png)
-
-
+![image](https://user-images.githubusercontent.com/104279937/173208354-74c58007-4ae7-4103-b517-de8d797f3e0f.png)
 
 Base de datos para MySQL
+![image](https://user-images.githubusercontent.com/104279937/173208365-aed78d95-0366-4751-9e1c-28cf1a412f50.png)
+
