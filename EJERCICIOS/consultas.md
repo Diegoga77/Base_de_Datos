@@ -20,5 +20,3 @@ FROM empleados INNER JOIN sucursal ON empleados.codigo_de_sucursal1=sucursal.cod
 
 https://www.db-fiddle.com/f/iAUjGLoFoHtam2pK68Xh1B/1
 
-EJEMPLO
-https://www.db-fiddle.com/f/f5YQQo1MCXhD95LFCdiYFB/13
