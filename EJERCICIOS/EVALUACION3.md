@@ -17,6 +17,8 @@ Es un sistema que agrega y combina información de diferentes fuentes en un alma
 
 3. Realiza un diseño del modelo copo de nieve (valor 2)
 
+<img width="592" alt="image" src="https://user-images.githubusercontent.com/104279937/173972139-eae2d6a8-2c2f-4b1d-8cb8-a05f2e5dbb16.png">
+
 
 ## Práctica 7
 ### Funciones en SQL
